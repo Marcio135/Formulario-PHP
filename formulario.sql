@@ -1,0 +1,10 @@
+CREATE DATABASE formulario;
+USE formulario;
+
+CREATE TABLE usuarios (
+    id INT PRIMARY KEY AUTO_INCREMENT,
+    nome VARCHAR(45) NOT NULL,
+    celular VARCHAR(15) NOT NULL,
+    cep VARCHAR(15) NOT NULL,
+    email VARCHAR(100)NOT NULL
+);
